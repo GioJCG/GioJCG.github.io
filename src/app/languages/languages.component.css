@@ -1,0 +1,31 @@
+.languages-table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 10px;
+}
+
+.languages-table th, .languages-table td {
+    padding: 10px;
+    border: 0px solid #ffffff; 
+    text-align: left; 
+}
+
+.languages-table tr:nth-child(even) {
+    background-color: #ffffff; 
+}
+
+.languages-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.languages-table td {
+    font-size: 16px; 
+    color: #000000; 
+}
+
+.icono-idioma {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}

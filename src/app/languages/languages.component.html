@@ -1,13 +1,14 @@
-<h3>Idiomas</h3>
+<h3>
+    <img src="../../assets/language_484633.png" alt="Icono de idiomas" class="icono-idioma">
+    Idiomas
+</h3>
 
-<table border="0">
-    <ul *ngFor="let lenguage of lenguages">
-        <tr>
-        <td>{{ lenguage.idioma1 }} </td>
-        <tr>
-        <td>{{ lenguage.idioma2 }} </td>
-        <tr>
-        <td>{{ lenguage.idioma3 }} </td>
-            </tr>
-    </ul>
+<table border="0" class="languages-table">
+
+    <tbody>
+        <tr *ngFor="let language of lenguages">
+            <td>{{ language.idioma }}</td>
+            <td>{{ language.nivel }} </td> <!-- Agrega un nivel para cada idioma si lo deseas -->
+        </tr>
+    </tbody>
 </table>
