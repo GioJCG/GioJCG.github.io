@@ -1,0 +1,30 @@
+.interest-container {
+    width: 100;
+}
+
+.tag-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #25786f; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+.tag:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+.icono-interes {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
