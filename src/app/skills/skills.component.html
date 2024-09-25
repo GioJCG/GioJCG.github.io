@@ -1,0 +1,16 @@
+<h3>Habilidades</h3>
+
+<div class="Habilidades">
+    <div class="levels">
+    </div>
+    <div class="skills-container" *ngFor="let skill of skills">
+        <div class="skill">
+            <span>{{ skill.habilidad }}</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" [style.width.%]="(skill.nivel / 10) * 100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
