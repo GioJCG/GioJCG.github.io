@@ -6,19 +6,41 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrl: './skills.component.css',
 })
 export class SkillsComponent {
-  skills : Array<any> = [];
+  skills: Array<any> = [];
   ngOnInit(): void {
     let skill1 = {
-      habilidad1: "Trabajo en equipo",
-      habilidad2: "Comunicacion",
-      habilidad3: "Pensamiento critico",
-      habilidad4: "Trabajo bajo presion",
-      habilidad5: "Adaptabilidad",
+      habilidad: 'Trabajo en equipo',
+      nivel: 7,
     };
+
+    let skill2 = {
+      habilidad: 'Comunicacion',
+      nivel: 8,
+    };
+
+    let skill3 = {
+      habilidad: 'Pensamiento critico',
+      nivel: 7,
+    };
+
+    let skill4 = {
+      habilidad: 'Trabajo bajo presion',
+      nivel: 10,
+    };
+
+    let skill5 = {
+      habilidad: 'Adaptabilidad',
+      nivel: 9,
+    };
+
     this.skills.push(skill1);
+    this.skills.push(skill2);
+    this.skills.push(skill3);
+    this.skills.push(skill4);
+    this.skills.push(skill5);
     console.log(this.skills);
   }
 }

@@ -1,13 +1,16 @@
-<h3>Habilidaes</h3>
+<h3>Habilidades</h3>
 
-<table border="0">
-
-    <ul *ngFor="let skill of skills">
-        
-        <tr>{{ skill.habilidad1 }}</tr>
-        <tr>{{ skill.habilidad2 }}</tr>
-        <tr>{{ skill.habilidad3 }}</tr>
-        <tr>{{ skill.habilidad4 }}</tr>
-        <tr>{{ skill.habilidad5 }}</tr>
-    </ul>
-</table>
+<div class="Habilidades">
+    <div class="levels">
+    </div>
+    <div class="skills-container" *ngFor="let skill of skills">
+        <div class="skill">
+            <span>{{ skill.habilidad }}</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" [style.width.%]="(skill.nivel / 10) * 100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
