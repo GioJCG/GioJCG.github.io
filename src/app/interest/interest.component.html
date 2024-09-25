@@ -1,17 +1,11 @@
 <h3>Intereses</h3>
 
-<table border="0">
-    <ul *ngFor="let interest of interest">
-        <tr>
-        <td>{{ interest.interes1 }} </td>
-        <tr>
-        <td>{{ interest.interes2 }} </td>
-        <tr>
-        <td>{{ interest.interes3 }} </td>
-        <tr>
-        <td>{{ interest.interes4 }} </td>
-        <tr>
-        <td>{{ interest.interst5 }} </td>
-            </tr>
-    </ul>
-</table>
+<div *ngFor="let interest of interest" class="interest-container">
+    <div class="tag-conteiner">
+    <span class="tag">{{ interest.interes1 }}</span>
+    <span class="tag">{{ interest.interes2 }}</span>
+    <span class="tag">{{ interest.interes3 }}</span>
+    <span class="tag">{{ interest.interes4 }}</span> 
+    <span class="tag">{{ interest.interes5 }}</span>
+    </div>
+</div>
