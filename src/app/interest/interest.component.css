@@ -21,3 +21,10 @@
 .tag:hover {
     background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }
+
+.icono-interes {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
