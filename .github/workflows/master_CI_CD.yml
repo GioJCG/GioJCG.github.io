@@ -30,9 +30,9 @@ jobs:
       - name: docker ps
         run: |
           docker ps
-      - name: cp angular buid to container
-        run: |
-          docker cp dist/my-cv/browser/. serving_base:/usr/local/apache2/htdocs
+   #   - name: cp angular buid to container
+    #    run: |
+     #     docker cp dist/my-cv/browser/. serving_base:/usr/local/apache2/htdocs
       - name: list container
         run: |
             docker exec serving_base ls -la /usr/local/apache2/htdocs 
