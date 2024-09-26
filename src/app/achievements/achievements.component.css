@@ -40,3 +40,11 @@ tr:hover {
     margin-right: 8px;
     vertical-align: middle;
 }
+
+.logros-conteiner {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
