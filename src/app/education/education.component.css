@@ -1,0 +1,20 @@
+.icono-escuela {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#font {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.escuela-conteiner {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

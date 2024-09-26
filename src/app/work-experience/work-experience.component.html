@@ -1,28 +1,30 @@
-<h3>Experiencia Laboral</h3>
-
+<div class="experiencia-conteiner">
+<h3>
+    <img src="../../assets/portfolio_3222498.png" alt="Icono de experiencia laboral" class="icono-experiencia">
+    Experiencia Laboral
+</h3>
+</div>
 <table border="0">
-
-    <ul *ngFor="let work of workExperience">
-    <li>
+    <tbody *ngFor="let work of workExperience">
         <tr>
-            <td>{{ work.fecha }} </td> <td> {{ work.ubicacion }}</td>
-            </tr>
-            <tr>
-                <td>{{ work.puesto }} </td> <td> </td>
-                </tr>
-                <tr>
-                <td>{{ work.empresa }} </td> <td> </td>
-                </tr>
-                <tr>
-                    <td> Logros </td>
-                    </tr>
-                    <ul *ngFor="let logro of work.logros">
-                        <li>
-                            <tr>
-                                <td>{{ logro.descripcion }} </td>
-                                </tr>
-                                </li>
-                                </ul>
-                                </li>
-                                </ul>
-                                </table>
+            <td>{{ work.fecha }}</td>
+            <td>{{ work.ubicacion }}</td>
+        </tr>
+        <tr>
+            <td colspan="2">{{ work.puesto }}</td>
+        </tr>
+        <tr>
+            <td colspan="2">{{ work.empresa }}</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Logros:</strong></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <ul>
+                    <li *ngFor="let logro of work.logros">{{ logro.descripcion }}</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
