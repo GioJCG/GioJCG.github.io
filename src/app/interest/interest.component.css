@@ -1,0 +1,39 @@
+.inter-container {
+    width: 400px;
+}
+
+.tag-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #25786f; 
+    color: white; 
+    border-radius: 20px; 
+    font-size: 14px; 
+    transition: background-color 0.3s; 
+}
+
+.tag:hover {
+    background-color: #0056b3; 
+    background-color: #0056b3; 
+}
+
+.icono-interes {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.interest-container {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

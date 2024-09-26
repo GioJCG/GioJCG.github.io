@@ -9,14 +9,14 @@ import { CommonModule } from '@angular/common';
   styleUrl: './languages.component.css'
 })
 export class LanguagesComponent {
-  lenguages : Array<any> = [];
+  lenguages: Array<any> = [];
+
   ngOnInit(): void {
-    let lenguage1 = { 
-      idioma1: "Ingles",
-      idioma2: "Espanol",
-      idioma3: "Portugues",
-    };
-    this.lenguages.push(lenguage1);
+    this.lenguages = [ 
+      { idioma: "Inglés", nivel: "Medio" },
+      { idioma: "Español", nivel: "Avanzado" },
+      { idioma: "Portugués", nivel: "Básico" },
+    ];
     console.log(this.lenguages);
   }
 }

@@ -1,13 +1,23 @@
-<h3>Habilidaes</h3>
+<div class="habilidad-container">
+<h3>
+    <img src="../../assets/competence_2640598.png" alt="Icono de habilidades" class="icono-habilidad">
+    Habilidades
+</h3>
+</div>
 
-<table border="0">
-
-    <ul *ngFor="let skill of skills">
-        
-        <tr>{{ skill.habilidad1 }}</tr>
-        <tr>{{ skill.habilidad2 }}</tr>
-        <tr>{{ skill.habilidad3 }}</tr>
-        <tr>{{ skill.habilidad4 }}</tr>
-        <tr>{{ skill.habilidad5 }}</tr>
-    </ul>
-</table>
+<div class="skills-competences">
+<div class="progress-container">
+<div class="Habilidades">
+    <div class="levels">
+    </div>
+    <div class="skills-container" *ngFor="let skill of skills">
+        <div class="skill">
+            <span>{{ skill.habilidad }}</span>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress" [style.width.%]="(skill.nivel / 10) * 100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

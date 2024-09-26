@@ -1,15 +1,28 @@
-<h3>Logros</h3>
+<div class="logros-conteiner">
+<h3>
+    <img src="../../assets/trophy_1445159.png" alt="Icono de logros" class="icono-logro">
+    Logros
+</h3>
+</div>
 
 <table border="0">
-    <ul *ngFor="let achievement of achievements">
+    <thead>
         <tr>
-        <td>{{ achievement.logro1 }} </td>
-        <tr>
-        <td>{{ achievement.logro2 }} </td>
-        <tr>
-        <td>{{ achievement.logro3 }} </td>
-        <tr>
-        <td>{{ achievement.logro4 }} </td>
-            </tr> 
-    </ul>
+            <th>Logros</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let achievement of achievements">
+            <td>{{ achievement.logro1 }}</td>
+        </tr>
+        <tr *ngFor="let achievement of achievements">
+            <td>{{ achievement.logro2 }}</td>
+        </tr>
+        <tr *ngFor="let achievement of achievements">
+            <td>{{ achievement.logro3 }}</td>
+        </tr>
+        <tr *ngFor="let achievement of achievements">
+            <td>{{ achievement.logro4 }}</td>
+        </tr>
+    </tbody>
 </table>

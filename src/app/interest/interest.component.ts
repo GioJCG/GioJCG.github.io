@@ -16,7 +16,9 @@ export class InterestComponent {
       interes2: "Musica",
       interes3: "Cocina",
       interes4: "Dibujo",
-      interst5: "Programacion"
+      interes5: "Programacion",
+      interes6: "Arte",
+      interes7: "Tecnologia",
     };
     this.interest.push(interest1);
     console.log(this.interest);
