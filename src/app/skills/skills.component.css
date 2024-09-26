@@ -5,11 +5,11 @@
 .levels {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px; /* Espacio entre la línea de niveles y las barras de progreso */
+    margin-bottom: 5px; 
 }
 
 .levels span {
-    flex-grow: 0; /* Hace que cada número ocupe espacio igual */
+    flex-grow: 0; 
     text-align:right;
     font-size: 12px;
 }
@@ -27,20 +27,35 @@
 
 .progress-container {
     position: relative;
-    width: 200px; /* O cualquier ancho que necesites */
-    margin-left: 20px; /* Espacio entre habilidad y barra de progreso */
+    width: 400px; 
+    margin-left: 20px; 
 }
 
 .progress-bar {
-    background-color: #e0e0e0; /* Color de fondo de la barra de progreso */
+    background-color: #e0e0e0; 
     border-radius: 5px;
-    height: 20px; /* Altura de la barra de progreso */
-    width: 100%; /* Asegurar que todas las barras midan lo mismo */
+    height: 20px; 
+    width: 100%; 
     overflow: hidden;
 }
 
 .progress {
-    background-color: #76c7c0; /* Color de la barra de progreso */
-    height: 100%; /* Altura de la barra de progreso */
-    transition: width 0.3s; /* Transición suave al cambiar el ancho */
+    background-color: #76c7c0; 
+    height: 100%; 
+    transition: width 0.3s; 
+}
+
+.icono-habilidad {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.habilidad-container {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
