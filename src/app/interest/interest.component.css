@@ -1,5 +1,5 @@
-.interest-container {
-    width: 100;
+.inter-container {
+    width: 400px;
 }
 
 .tag-conteiner {
@@ -11,15 +11,15 @@
     display: inline-block;
     padding: 8px 12px;
     margin: 5px;
-    background-color: #25786f; /* Color de fondo */
-    color: white; /* Color del texto */
-    border-radius: 20px; /* Bordes redondeados */
-    font-size: 14px; /* Tamaño de fuente */
-    transition: background-color 0.3s; /* Transición para hover */
+    background-color: #25786f; 
+    color: white; 
+    border-radius: 20px; 
+    font-size: 14px; 
+    transition: background-color 0.3s; 
 }
 
 .tag:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    background-color: #0056b3; 
 }
 
 .icono-interes {
@@ -27,4 +27,12 @@
     height: 24px;
     margin-right: 8px;
     vertical-align: middle;
+}
+
+.interest-container {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
