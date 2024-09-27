@@ -1,0 +1,61 @@
+.skills-competences {
+    margin: 20px;
+}
+
+.levels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; 
+}
+
+.levels span {
+    flex-grow: 0; 
+    text-align:right;
+    font-size: 12px;
+}
+
+.skills-container {
+    margin-bottom: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-container {
+    position: relative;
+    width: 400px; 
+    margin-left: 20px; 
+}
+
+.progress-bar {
+    background-color: #e0e0e0; 
+    border-radius: 5px;
+    height: 20px; 
+    width: 100%; 
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #76c7c0; 
+    height: 100%; 
+    transition: width 0.3s; 
+}
+
+.icono-habilidad {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.habilidad-container {
+    background-color: rgb(182, 207, 199);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

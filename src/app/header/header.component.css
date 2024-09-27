@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../assets/vecteezy_3d-render-abstract-minimal-background-with-pink-blue-yellow_24495614.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #dcf0f3; 
+    padding: 20px; 
+    border-bottom: 2px solid #ffffff; 
+    box-shadow: 0 2px 5px rgba(16, 15, 15, 0.1); 
+}
+
+#about_me {
+    flex: 2; 
+    padding-right: 20px; 
+}
+
+#name {
+    font-size: 2em; 
+    font-weight: bold; 
+    margin: 0; 
+}
+
+#lastname {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+#profession {
+    font-size: 1.2em; 
+    color: #fbf9f9; 
+    margin: 5px 0; 
+}
+
+#objetive {
+    font-size: 1em; 
+    color: #ffffff; 
+    margin-top: 10px; 
+}
+
+#profile_picture {
+    flex-shrink: 0; 
+}
+
+#profile_img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+}
+
+#my_data {
+    flex: 1; 
+    text-align: right; 
+}
+
+#my_data p {
+    margin: 5px 0; 
+    font-size: 0.9em; 
+    color: #fbfbfb; 
+}
+
+.icon {
+    width: 16px; 
+    height: 16px; 
+    vertical-align: middle; 
+    margin-left: 5px; 
+}
